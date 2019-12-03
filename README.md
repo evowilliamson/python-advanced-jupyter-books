@@ -1,4 +1,4 @@
-# Python Topics Advanced
+# Python Advanced Topics 
 
 This repository contains some advanced Python topics that I worked out throughout time. 
 
