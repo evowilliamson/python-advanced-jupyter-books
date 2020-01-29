@@ -24,7 +24,7 @@ def timeit(code, repeats=10):
 
 
 if __name__ == '__main__':
-    # get code from arguments
+    #get code from arguments
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('code',
                         type=str, help='The Python code snippet to be timed.')
@@ -32,5 +32,6 @@ if __name__ == '__main__':
                         type=int, default=10,
                         help='Number of times to repeat the test.')
     args = parser.parse_args()
-    print(f'timing: {args.code}...')
-    print(timeit(code=str(args.code), repeats=args.repeats))
+    print(f"timing: {args.code}...")
+    a = timeit(code=str(args.code), repeats=args.repeats)
+    print(a)
